@@ -9,7 +9,7 @@ import { authenticate,isAuth } from '../helpers/auth';
 const Login = () => {
 	const [state,setState]=useState(
 		{
-			email:'koustubh@gmail.com',
+			email:'',
 			password:'koustubh',
 			error:'',
 			success:'',
@@ -60,6 +60,11 @@ const {email,password,error,success,buttonText}=state;
 		</form>
 	}
 	return <Layout>
+	<h1>
+	ADMIN LOGIN:
+	gmail:reactnextaws@gmail.com
+	password:123456	
+	</h1>	
 	<div className='col-md-6 offset md-3'>
 	<h1>login</h1>
 	<br />
