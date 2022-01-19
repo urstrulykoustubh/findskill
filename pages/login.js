@@ -60,11 +60,11 @@ const {email,password,error,success,buttonText}=state;
 		</form>
 	}
 	return <Layout>
-	<h1>
+	<h7>
 	ADMIN LOGIN:
 	gmail:reactnextaws@gmail.com
 	password:123456	
-	</h1>	
+	</h7>	
 	<div className='col-md-6 offset md-3'>
 	<h1>login</h1>
 	<br />
